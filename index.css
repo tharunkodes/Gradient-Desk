@@ -496,13 +496,12 @@ a {
   --hover-btn-color: #fac921;
   --default-btn-color: #fff;
   --font-size: 16px;
-  /* 👆 this field should not be empty */
   --font-weight: 600;
   --font-family: Menlo, Roboto Mono, monospace;
-  /* 👆 this field should not be empty */
+
 }
 
-/* button settings 👆 */
+
 
 .ui-btn {
   width: 150px;
@@ -697,7 +696,10 @@ footer {
     left: -100%;
     top: 5rem;
     flex-direction: column;
-    background-color: #222;
+    background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
     width: 100%;
     border-radius: 1rem;
     text-align: center;
