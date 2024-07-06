@@ -74,7 +74,7 @@ a {
 }
 
 .nav-link:hover {
-  color: #482ff7;
+  color: orangered;
 }
 
 .nav-logo {
@@ -113,6 +113,7 @@ a {
   text-align: center;
   line-height: 1.6;
   text-wrap: balance;
+  margin-bottom: 5rem;
 }
 
 .text-para h1 {
@@ -220,11 +221,13 @@ a {
   text-align: left;
   align-content: center;
   margin-left: 3%;
+  font-weight: 100;
 }
 
 .About-text h1 {
   font-size: 4.5rem;
   margin-bottom: 5rem;
+  color: orangered;
 }
 /* Services */
 .service-container {
@@ -318,10 +321,11 @@ a {
   height: 360px;
   list-style: none;
   /* background: #101010; */
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(0px);
-  -webkit-backdrop-filter: blur(0px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  -webkit-backdrop-filter: blur(17.6px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   color: #fff;
   cursor: pointer;
   padding-top: 20px;
@@ -342,9 +346,10 @@ a {
   border-radius: 15px;
 }
 .carousel .card h2 {
-  font-weight: 500;
+  font-weight: 800;
   font-size: 1.56rem;
   margin-top: 3rem;
+  color: orangered;
 }
 .carousel .card span {
   margin-top: 1rem;
@@ -357,10 +362,12 @@ a {
   color: white;
   text-align: center;
   font-size: 2rem;
+  /* font-weight: 100; */
   margin-bottom: 0%;
 }
 .Our-work span {
   color: orangered;
+  /* font-weight: 100; */
 }
 /* What we do sections ends here*/
 .projects-container {
@@ -498,10 +505,7 @@ a {
   --font-size: 16px;
   --font-weight: 600;
   --font-family: Menlo, Roboto Mono, monospace;
-
 }
-
-
 
 .ui-btn {
   width: 150px;
@@ -658,7 +662,7 @@ a {
 }
 footer {
   width: 100%;
-  height: 5vh;
+  height: 3vh;
   background-color: #000;
   /* text-align: center; */
   display: flex;
@@ -696,7 +700,7 @@ footer {
     left: -100%;
     top: 5rem;
     flex-direction: column;
-    background-color:#101010;
+    background-color: #101010;
     width: 100%;
     border-radius: 1rem;
     text-align: center;
@@ -1127,7 +1131,8 @@ footer {
   }
 
   .text-para h2 {
-    font-size: 1.5rem;
+    font-weight: 100;
+    font-size: 2rem;
     text-wrap: balance;
   }
 
